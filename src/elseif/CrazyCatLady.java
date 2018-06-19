@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class CrazyCatLady {
 	public static void main(String[] args) {
-		int so = 1 & 2;
+		
 		// 1. Ask the user how many cats they have
 String answer=JOptionPane.showInputDialog("how many cats do you have");
 		// 2. Convert their answer into an int
@@ -19,8 +19,8 @@ if (go>3) {
 	JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
   
 }
-else if (go==so) {
-	JOptionPane.showMessageDialog(null, "it worked");
+else if (go == 1 && go == 2) {
+	
 
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 
